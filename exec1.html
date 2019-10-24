@@ -6,12 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <script>
-    var heigth = 180;
-    var weigth = 74;
+    var name = prompt("당신의 이름은 ","");
+    var heigth = prompt("당신의 키는 ","0");
+    var weight = prompt("당신의 몸무게는 ","0");
+
     var good = (heigth-100)*0.9;
-    document.write(good);
-
-
+    var result = weight >= good - 5 && weight <= good + 5;
+    result = result ? "적정체중입니다" : "적정체중이 아닙니다";
+    document.write(name+"님은"+result);
     </script>
 </head>
 <body>
