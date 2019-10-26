@@ -53,11 +53,15 @@
 			background-size: cover;
 			margin: 0;
 		}
-		nav {
-			height: 50px;
+		#left-nav {
+			float: left;
 			background: #000;
+			height: 1000px;
+			width: 260px;
 		}
 		#main-nav {
+			height: 50px;
+			background: #000;
 			list-style: none;
 			margin: 0;
 			padding: 10px;
@@ -197,8 +201,12 @@
 	</style>
 </head>
 <body>
-	
-    <div id="wrap">
+	<ul id="left-nav">
+			<li><a href="#intro">Who am I</a></li>					
+			<li><a href="#map">Where am I</a></li>
+			<li><a href="#choice">What am I</a></li>
+	</ul>
+	<div id="wrap">
 	<div id="container">
 		<header>
 			<nav>
