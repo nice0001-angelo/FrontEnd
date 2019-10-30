@@ -52,7 +52,13 @@ table {
 a {
     text-decoration: none;
 }
-nav a:link, a:visited {
+.portfolio a:link, .portfolio a:visited {
+    color: #fff;
+}
+.portfolio a:active {
+    color: yellow;
+}
+nav a:link, nav a:visited {
     color: #fff;
 }
 nav a:active {
@@ -136,6 +142,14 @@ section {
 .photo {
     display: none;
 }
+.link1 {
+    display: none;
+}
+
+.link2 {
+    display: none;
+}
+
 footer {
     position: relative;
     width: 100%;
@@ -165,7 +179,7 @@ header {
     margin: 0;
     border: 1px dotted #ccc;
 }
-#choice {
+#choice, #portfolio {
     clear: left;
 }
 }
@@ -180,7 +194,7 @@ header {
 header {
         height: 500px;
     }
-#intro, #map, #choice {
+#intro, #map, #choice, #portfolio {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -205,6 +219,27 @@ header {
     height: auto;
     margin-bottom: 30px;
 }
+.link1 {
+    width: 42%;
+    display: block;
+    }
+.link1 > a {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.link2 {
+    width: 42%;
+    display: block;
+    }
+.link2 > a {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    margin-bottom: 30px;
+}
 .text {
     width: 42%;
 }
@@ -222,6 +257,16 @@ header {
 #choice .text {
     float: left;
 }
+
+#portfolio .link1 {
+    float: left;
+    margin-right: 5%;
+}
+#portfolio .link2 {
+    float: left;
+    margin-right: 5%;
+}
+
 footer {
     clear: both;
 }
