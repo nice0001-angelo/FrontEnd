@@ -132,6 +132,7 @@ section {
     box-sizing: border-box;
     width: 90%;
     padding: 20px;
+    position: relative;
 }		
 .content ol {
     margin-top: 20px;
