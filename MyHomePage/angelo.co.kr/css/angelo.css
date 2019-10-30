@@ -48,6 +48,7 @@ table {
 #wrap {
     background: #fff;
     font-family: "Jeju Gothic", serif;
+    overflow: hidden;
 }
 a {
     text-decoration: none;
