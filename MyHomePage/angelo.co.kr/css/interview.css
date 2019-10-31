@@ -29,8 +29,8 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ul {
+    list-style: none;
 }
 blockquote, q {
 	quotes: none;
@@ -64,6 +64,10 @@ p {
     line-height: 2.0;
     padding-right: 32px;
     width: 90%;
+}
+
+ul > li {
+    width: 70%;
 }
 
 /* 모바일 - 767px 이하 */
