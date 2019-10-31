@@ -155,7 +155,7 @@ section {
 footer {
     position: relative;
     width: 100%;
-    height: 100px;
+    height: 120px;
     background: #000;
 }		
 footer p {
@@ -164,6 +164,14 @@ footer p {
     line-height: 100px;
     color: white;
     text-align: center;
+}
+
+footer > a {
+    font-family: 'Oleo Script', cursive;
+    font-size: 1.5em;
+    line-height: 20px;
+    color: black;
+    text-align: right;
 }
 
 /* 태블릿 - 768px 이상 */
