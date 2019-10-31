@@ -278,6 +278,7 @@ header {
 }
 
 footer {
+    height: 120px;
     clear: both;
 }
 }
