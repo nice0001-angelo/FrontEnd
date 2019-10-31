@@ -66,8 +66,9 @@ p {
     width: 90%;
 }
 
-ul > li {
-    width: 70%;
+ol > li {
+    margin-left: 16px;
+    width: 90%;
 }
 
 /* 모바일 - 767px 이하 */
