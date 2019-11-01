@@ -95,6 +95,11 @@ section {
     width: 100%;
     padding: 15px 5% 10px 5%;
 }	
+#portfolio {
+    position: relative;
+    width: 100%;
+    padding: 15px 10% 10px 5%;
+}	
 #container section:nth-child(odd) {
     background: #eee;
 }
@@ -139,10 +144,10 @@ li {
     font-size: 1em;
     line-height: 2;
 }
-.portfolio a:link, .portfolio a:visited {
+#portfolio a:link, #portfolio a:visited {
     color: #fff;
 }
-.portfolio a:active {
+#portfolio a:active {
     color: yellow;
 }
 .link1 {
