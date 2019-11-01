@@ -16,7 +16,7 @@ section {
 }
 
 #link > img {
-    position: relative;
+    position: absolute;
     left: 10%;
     top: 10%;
     height: 80%;
@@ -26,10 +26,9 @@ section {
 }
 
 #link > a {
-    disply: inline-block; 
-    position: relative;
-    left: 0;
-    top: 20%;
+    position: absolute;
+    left: 35%;
+    top: 95%;
     margin: 0;
     padding: 0;
     border: 5px solid black;
