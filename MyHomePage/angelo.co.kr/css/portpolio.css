@@ -3,44 +3,38 @@
 
 /* Common */
 
-#link {
-    position: relative;
+header {
+ 
+}
+section {
+    position: fixed;
     height: 80%;
-    width: 80%;
-    margin: 10%;
+    width: 40%;
+    margin: 5% 30%;
     padding: 0;
     border: 5px solid black;
 }
 
 #link > img {
-    position: fixed;
+    position: relative;
+    left: 10%;
+    top: 10%;
     height: 80%;
     width: 80%;
-    margin: 0;
     padding: 0;
     border: 5px solid black;
 }
 
 #link > a {
-    position: fixed;
-    height: 80%;
-    width: 80%;
-    margin: 10%;
+    disply: inline-block; 
+    position: relative;
+    left: 0;
+    top: 20%;
+    margin: 0;
     padding: 0;
     border: 5px solid black;
 }
 
-
-/* 모바일 - 767px 이하 */
-header {
- 
-}
-
-section {
-    position: relative;
-    width: 100%;
-    padding: 15px 5% 10px 5%;
-}
 
 /* 태블릿 - 768px 이상 */
 @media screen and (min-width:760px) {
