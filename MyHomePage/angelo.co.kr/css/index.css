@@ -100,22 +100,57 @@ li {
 #portfolio a:active {
     color: yellow;
 }
-.link1 {
-    display: none;
-}
-.link1 > a > img{
-    height: 200px;
-    width: 300px;
-    border: 10px #000;
-}
-.link2 {
-    display: none;
-}
-.link2 > a > img{
-    height: 200px;
-    width: 300px;
-    border: 10px #000;
-}
+.prod-list {
+    list-style:none;
+    margin:0;
+    padding:0;
+   }
+    .prod-list li {
+      position: relative;
+      float: left;
+      padding: 0;
+      margin: 10px;
+      overflow: hidden;
+    }
+  .prod-list img {
+    margin:0;
+    padding:0;
+    width: 350px;
+    height: 220px;
+    float:left;
+    z-index:5;
+  }   
+   .prod-list .caption {
+    position: absolute;
+    top:200px;
+    width:350px;
+    height:220px;
+    padding-top:20px;
+    background:rgba(0,0,0,0.6);
+    opacity:0;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    z-index:10;
+    text-align: center;
+  }
+  .prod-list li:hover .caption {
+    opacity: 1;
+    -moz-transform: translateY(-200px);
+    -ms-transform: translateY(-200px);
+    -o-transform: translateY(-200px);
+    -webkit-transform: translateY(-200px);
+    transform: translateY(-200px);
+  }     
+.prod-list .caption a {
+    color: #fff;
+    font: 2em sans-serif;
+  }  
+.prod-list .caption h1, .prod-list .caption p {
+    color: #fff;
+    text-align: center;
+  }
 footer {
     position: relative;
     width: 100%;
