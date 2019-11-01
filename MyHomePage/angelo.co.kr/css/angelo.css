@@ -1,6 +1,8 @@
 @import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
 @import url(https://fonts.googleapis.com/css?family=Oleo+Script);
 
+
+/* Common Reset */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -21,6 +23,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -45,6 +48,10 @@ table {
 	border-spacing: 0;
 }
 
+
+
+
+/* Common */
 #wrap {
     background: #fff;
     font-family: "Jeju Gothic", serif;
@@ -52,12 +59,6 @@ table {
 }
 a {
     text-decoration: none;
-}
-.portfolio a:link, .portfolio a:visited {
-    color: #fff;
-}
-.portfolio a:active {
-    color: yellow;
 }
 nav a:link, nav a:visited {
     color: #fff;
@@ -79,8 +80,16 @@ li {
     font-size: 1em;
     line-height: 2;
 }
+.portfolio a:link, .portfolio a:visited {
+    color: #fff;
+}
+.portfolio a:active {
+    color: yellow;
+}
 
-/* 모바일 - 767px 이하 */
+
+
+/* Mobile - 767px Under */
 #container {
     width: 100%;
     margin: 0 auto;
@@ -151,7 +160,6 @@ section {
 .link2 {
     display: none;
 }
-
 footer {
     position: relative;
     width: 100%;
@@ -174,7 +182,8 @@ footer > a {
     text-align: right;
 }
 
-/* 태블릿 - 768px 이상 */
+
+/* Tablet - 768px More */
 @media screen and (min-width:760px) {
 header {
         height: 400px;
@@ -194,7 +203,8 @@ header {
 }
 }
 
-/* PC - 992px 이상 */
+
+/* PC - 992px More */
 @media screen and (min-width:992px) {
 #container {
         width: 995px;
