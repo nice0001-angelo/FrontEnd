@@ -148,8 +148,18 @@ li {
 .link1 {
     display: none;
 }
+.link1 > a > img{
+    height: 200px;
+    width: 300px;
+    border: 10px #000;
+}
 .link2 {
     display: none;
+}
+.link2 > a > img{
+    height: 200px;
+    width: 300px;
+    border: 10px #000;
 }
 footer {
     position: relative;
