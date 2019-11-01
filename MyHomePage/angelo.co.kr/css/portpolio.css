@@ -12,7 +12,7 @@ section {
     width: 40%;
     margin: 5% 30%;
     padding: 0;
-    border: 5px solid black;
+    
 }
 
 #link > img {
@@ -22,7 +22,7 @@ section {
     height: 80%;
     width: 80%;
     padding: 0;
-    border: 5px solid black;
+    
 }
 
 #link > a {
@@ -31,7 +31,7 @@ section {
     top: 95%;
     margin: 0;
     padding: 0;
-    border: 5px solid black;
+    
 }
 
 
