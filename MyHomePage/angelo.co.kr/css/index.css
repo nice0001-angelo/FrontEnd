@@ -45,11 +45,6 @@ section {
     width: 100%;
     padding: 15px 5% 10px 5%;
 }	
-#portfolio {
-    position: relative;
-    width: 100%;
-    padding: 15px 10% 10px 5%;
-}	
 #container section:nth-child(odd) {
     background: #eee;
 }
@@ -94,6 +89,11 @@ li {
     font-size: 1em;
     line-height: 2;
 }
+#portfolio {
+    position: fixed;
+    width: 100%;
+    padding: 15px 10% 10px 5%;
+}	
 #portfolio a:link, #portfolio a:visited {
     color: #fff;
 }
@@ -174,7 +174,7 @@ footer > a {
 
 
 /* Tablet - 768px More */
-@media screen and (min-width:760px) {
+@media screen and (min-width:768px) {
 header {
         height: 400px;
 }
@@ -194,8 +194,8 @@ header {
 }
 
 
-/* PC - 992px More */
-@media screen and (min-width:992px) {
+/* PC - 960px More */
+@media screen and (min-width:960px) {
 #container {
         width: 995px;
         margin: 0 auto;
