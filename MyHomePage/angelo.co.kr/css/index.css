@@ -258,7 +258,7 @@ header {
     margin-right: 5%;
 }
 #intro .text, #map .text {
-    float: right;
+    float: left;
 }
 #choice .photo {
     float: right;
