@@ -21,3 +21,24 @@ function myFnc(name,area){
 myFnc("남진현","토론토");
 
 myFnc("노지영","토론토");
+
+
+var rightId = "nice0001";
+var rightPw = "hyun953j";
+
+function login(id,pw){
+    if(id == rightId){
+        if(pw == rightPw){
+            document.write(id+"님 방문을 환영합니다.");
+        }else{
+            alert("잘못된 비밀번호입니다.");
+        }
+    }else{
+        alert("잘못된 ID입니다.");
+    }
+}
+
+var userId = prompt("ID를 입력하세요","");
+var userPw = prompt("Password를 입력하세요","");
+
+login(userId,userPw);
