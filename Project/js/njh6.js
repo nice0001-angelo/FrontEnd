@@ -26,4 +26,5 @@ if (check1 && check2){
 }else {
     alert("이메일 형식이 잘못되었습니다");
 }
-    
+
+window.open("winpopup.html","pop1","width=300, height=400, left=300, top=50");
