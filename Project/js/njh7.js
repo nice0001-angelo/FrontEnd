@@ -42,3 +42,19 @@ var userId = prompt("ID를 입력하세요","");
 var userPw = prompt("Password를 입력하세요","");
 
 login(userId,userPw);
+
+
+var num = 1';
+
+function gally(direction){
+    if(direction){
+        if(num==8) return;
+        num = num+1;
+    }else {
+        if(num == 1) return;
+        num = num-1;
+    }
+
+    var imgTag = document.getElementById("photo");
+    imgTag.setAttribute("src","pic_"+num+".jpg");
+}
