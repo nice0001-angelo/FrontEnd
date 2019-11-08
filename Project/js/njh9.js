@@ -28,4 +28,6 @@ document.write("<hr />");
 document.write("a<=b="+(a<=b));
 document.write("<hr />");
 document.write("대한민국>대한민곡="+("대한민국">"대한민곡"));
+document.write("<hr />");
+document.write("대한민걱>대한민곡="+("대한민걱">"대한민곡"));
 document.write("</h2>");
