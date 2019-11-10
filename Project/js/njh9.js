@@ -30,4 +30,5 @@ document.write("<hr />");
 document.write("대한민국>대한민곡="+("대한민국">"대한민곡"));
 document.write("<hr />");
 document.write("대한민걱>대한민곡="+("대한민걱">"대한민곡"));
+document.write("<hr />");
 document.write("</h2>");

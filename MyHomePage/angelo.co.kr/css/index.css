@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
 @import url(https://fonts.googleapis.com/css?family=Oleo+Script);
 
-/* Common */
+/* Global */
 #wrap {
     background: #fff;
     font-family: "Jeju Gothic", serif;
@@ -151,6 +151,27 @@ li {
     color: #fff;
     text-align: center;
   }
+a.jcm-top { 
+    position: fixed; 
+    right: 15px; 
+    bottom: 15px; 
+    border-radius: 5px; 
+    color: #ffffff; 
+    text-align: center; 
+    width: 45px; 
+    height: 45px; 
+    font-size: 40px; 
+    /*background-color: rgba(50,50,50,0.5);*/ 
+    background-color:#323232; 
+    opacity:0.5; 
+    filter:alpha(opacity=50); 
+    /*ie8 호환을 위한코드 위와 동일한 것임 호환필요없으면 한줄로 rgba적으면됨*/ 
+    z-index: 999; 
+    display: block; 
+    }
+a.jcm-top:hover{
+    background-color:#000
+    }
 footer {
     position: relative;
     width: 100%;
@@ -276,7 +297,18 @@ header {
     float: left;
     margin-right: 5%;
 }
-
+.topButton {
+    right: 30px;
+    bottom: 30px;
+    width: 56px;
+    height: 56px;
+    border: solid 1px #dbdee3;
+    background: #FFF url(//cdn.lezhin.com/files/assets/img/home_top_d2.png) no-repeat 50% 50%;
+    background-size: 64px;
+    border-radius: 100%;
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+} 
 footer {
     height: 120px;
     clear: both;
