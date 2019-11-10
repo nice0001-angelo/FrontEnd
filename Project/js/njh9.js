@@ -32,3 +32,6 @@ document.write("<hr />");
 document.write("대한민걱>대한민곡="+("대한민걱">"대한민곡"));
 document.write("<hr />");
 document.write("</h2>");
+    $(function(){
+    $("*").css("border","1px solid blue");
+    });
