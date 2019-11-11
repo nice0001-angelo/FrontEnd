@@ -29,6 +29,7 @@ $(function(){
         console.table(i+":",$(this));
     });
 
+    console.log("=======The end3========");
     
     var a = 10;
     var b = 20;
@@ -41,7 +42,48 @@ $(function(){
     document.write(a-=b);
     document.write("<hr />");
     document.write(a*=b);
-    
-
-            
 });
+    
+    $(function(){
+        var arr1 = [{
+            "area":"서울",
+            "name":"무대리"
+        }, {
+            "area":"부산",
+            "name":"홍대리"
+        }, {
+            "area":"대전",
+            "name":"박사장"
+        }, {
+            "area":"서울",
+            "name":"빅마마"
+        }]          
+        
+        var arr2 = $.map(arr1,function(a,b){
+            if(a.area == "서울"){
+                window.alert(a);
+                return a;
+            }
+        });
+        
+        console.log(arr2);
+        console.log("============The End4============");
+        
+        
+        
+     });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
