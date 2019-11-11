@@ -10,6 +10,7 @@ $(function(){
     $(obj).each(function(i,o){
         window.alert(i+":",o);
         console.log(i+":",o);
+        console.table(i+":",o);
     });
     
     console.log("=======The end1========");
@@ -17,6 +18,7 @@ $(function(){
     $.each($("#menu2 li"), function(i,o) {
         window.alert(i+":",o);
         console.log(i+":",o);
+        console.table(i+":",o);
     });
     
     console.log("=======The end2========");
@@ -24,6 +26,22 @@ $(function(){
     $.each($("#menu2 li"), function(i) {
         window.alert(i+":",$(this));
         console.log(i+":",$(this));
+        console.table(i+":",$(this));
     });
 
+    
+    var a = 10;
+    var b = 20;
+    
+    document.write("<h2>");
+    document.write("a=10, b=20");
+    document.write("<hr />");
+    document.write(a+=b);
+    document.write("<hr />");
+    document.write(a-=b);
+    document.write("<hr />");
+    document.write(a*=b);
+    
+
+            
 });
