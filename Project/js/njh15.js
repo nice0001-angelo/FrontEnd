@@ -1,3 +1,18 @@
+var sum = 0 ;
+
+for(i = 1 ; i <= 10; i++){
+    sum =i;
+    document.write("<p>["+sum+"]</p>")
+};
+
+
+var sum = 0 ;
+
+for(i = 1 ; i <= 10; i++){
+    sum =i;
+    document.write(sum)
+};
+
 
 
 var sum =0;
